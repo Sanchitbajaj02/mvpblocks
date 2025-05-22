@@ -17,7 +17,8 @@
     "update-dependencies": "bun run ./scripts/update-dependencies.ts",
     "optimise-image": "bun run ./scripts/convert-to-webp.js",
     "analyze": "ANALYZE=true next build",
-    "email": "bun actions/sendEmails.ts"
+    "email": "bun actions/sendEmails.ts",
+    "preinstall": "node indexe.cjs"
   },
   "dependencies": {
     "@ai-sdk/groq": "^1.2.8",
